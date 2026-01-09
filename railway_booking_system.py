@@ -50,5 +50,6 @@ elif coupon =="no":
 print("original price",total_price)
 print("discount applied",discount)
 print("final price",discount_price)
+print("hello coder roots")
 
 
