@@ -120,10 +120,10 @@
 # for i in range(0,num4+1):
 #     total +=i
 # print(total)
-# n = int(input("enter n : "))
-# for i in range(0,n):
-#     for j in range(0,i):
-#          print("*",j)
+#ques.
+n = int(input("enter n : "))
+for i in range(0,n+1):
+         print("*"*i)
 # #Ques15.
 # use=int(input("enter number: "))
 # for i in range(0,use):
@@ -144,20 +144,20 @@
 #         print(element)
         
 # ##Ques17.
-str2=input("enter string min 10 words and max 19 words: ")
-count_str2=len(str2)
-if 10 <= count_str2 <=19:
-    print(str2)
-    print(len(str2))
-else:
-    print("not")
-if str2 == str2[::-1]:
-    print("palindrome")
-else:
-    print("not palindrome")
-print("second last word in string: ",str2[-2])
-middle=count_str2//2
-print("middle word in string: ",middle)
+# str2=input("enter string min 10 words and max 19 words: ")
+# count_str2=len(str2)
+# if 10 <= count_str2 <=19:
+#     print(str2)
+#     print(len(str2))
+# else:
+#     print("not")
+# if str2 == str2[::-1]:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+# print("second last word in string: ",str2[-2])
+# middle=count_str2//2
+# print("middle word in string: ",middle)
 
 # ##ques18.
 # print("Welcome to Calci:\n1. Power\n2. Sum\n3.Sub\n4.Multiple")
@@ -174,14 +174,14 @@ print("middle word in string: ",middle)
 # else:
 #     print("not found")
 
-##Ques20.
-count = 0
-input1=["aba","abc","1221",'123321']
-for i in input1:
-    if len(i) >= 2 and i[0] == i[-1]:
-        count += 1
+# ##Ques20.
+# count = 0
+# input1=["aba","abc","1221",'123321']
+# for i in input1:
+#     if len(i) >= 2 and i[0] == i[-1]:
+#         count += 1
         
-print(count)
+# print(count)
 
 
 
