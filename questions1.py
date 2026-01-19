@@ -144,17 +144,21 @@
 #         print(element)
         
 # ##Ques17.
-# str2=input("enter string min 10 words and max 19 words: ")
-# count_str2=len(str2)
-# if 10 <= count_str2 <=19:
-#     print(str2)
-#     print(len(str2))
-# else:
-#     print("not")
-# if str2 == str2[::-1]:
-#     print("palindrome")
-# else:
-#     print("not palindrome")
+str2=input("enter string min 10 words and max 19 words: ")
+count_str2=len(str2)
+if 10 <= count_str2 <=19:
+    print(str2)
+    print(len(str2))
+else:
+    print("not")
+if str2 == str2[::-1]:
+    print("palindrome")
+else:
+    print("not palindrome")
+print("second last word in string: ",str2[-2])
+middle=count_str2//2
+print("middle word in string: ",middle)
+
 # ##ques18.
 # print("Welcome to Calci:\n1. Power\n2. Sum\n3.Sub\n4.Multiple")
 # choice =input("enter your choice: ")
