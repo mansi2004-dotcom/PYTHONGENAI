@@ -34,45 +34,73 @@ for key, value in dict2.items():
 
 print(result)
 ##Ques4.
-data = {
-    'name': 'Alice',
-    'city': 'Bangalore',
-    'course': 'Data Science'
+# data = {
+#     'name': 'Alice',
+#     'city': 'Bangalore',
+#     'course': 'Data Science'
+# }
+
+# max_key = ""
+# max_length = 0
+
+# for key, value in data.items():
+#     if len(value) > max_length:
+#         max_length = len(value)
+#         max_key = key
+
+# print(max_key)
+# ##Ques5.
+# votes = {
+#     "Alice": 450,
+#     "Bob": 120,
+#     "Charlie": 600,
+#     "David": 300,
+#     "Eva": 80
+# }
+
+# # New dictionary for filtered votes
+# filtered_votes = {}
+
+# # Filter values between 100 and 500
+# for name, count in votes.items():
+#     if 100 <= count <= 500:
+#         filtered_votes[name] = count
+
+# print(filtered_votes)
+#Ques6.
+# votes = {}
+# n=int(input("enter number of voters: "))
+# for i in range(n):
+#     name=input("enter candidates name: ")
+#     if name in votes:
+#         votes[name] += 1
+#     else:
+#         votes[name] =1
+# winner =max(votes, key=votes.get)
+# print("votes for each candidate: ")
+# for name,count in votes.items():
+#     print(name,":",count)
+# print("Winner: ",winner)
+#Ques7.
+dict1={
+    "a":1,
+    "b":2,
+    "c":3
 }
-
-max_key = ""
-max_length = 0
-
-for key, value in data.items():
-    if len(value) > max_length:
-        max_length = len(value)
-        max_key = key
-
-print(max_key)
-##Ques5.
-votes = {
-    "Alice": 450,
-    "Bob": 120,
-    "Charlie": 600,
-    "David": 300,
-    "Eva": 80
+dict2={
+    "a":100,
+    "b":200
 }
+for key in dict1:
+    if key in dict2:
+        dict1[key]=dict2[key]
+print(dict1)
+# ##Ques8.
+# data = {'a': 10, 'b': 20, 'c': 30}
+# update = {'b': 200, 'c': 300}
 
-# New dictionary for filtered votes
-filtered_votes = {}
+# for key in update:
+#     if key in data:
+#         data[key] = update[key]
 
-# Filter values between 100 and 500
-for name, count in votes.items():
-    if 100 <= count <= 500:
-        filtered_votes[name] = count
-
-print(filtered_votes)
-##Ques6.
-data = {'a': 10, 'b': 20, 'c': 30}
-update = {'b': 200, 'c': 300}
-
-for key in update:
-    if key in data:
-        data[key] = update[key]
-
-print(data)
+# print(data)

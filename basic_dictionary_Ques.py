@@ -28,3 +28,6 @@ el={"name":"Mansi","Branch":"CSE","URN":1234}
 # else:
 #     print("not exist")
 print(el.items())
+dict1 = {'a': 50, 'b': 30, 'c': 70}
+dict2 = {'b': 60, 'c': 65, 'd': 40}
+print(dict1.items())
