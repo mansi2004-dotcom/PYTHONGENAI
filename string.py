@@ -18,8 +18,8 @@ print(name.upper())
 print(name.lower())
 print(name.capitalize())
 print(name.swapcase())
-print(name.endswith("si"))#give ans in boolean check is end with si or not.
-print(name.startswith("ma"))#check is strin start with ma or not.
+print(name.endswith("si"))#give ans in boolean check is end with si or not.it is case sensitive.
+print(name.startswith("ma"))#check is strin start with ma or not.it is case sensitive.
 
 print("---------------------")
 str1="     hello  hi   "

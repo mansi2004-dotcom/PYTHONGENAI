@@ -13,3 +13,8 @@
 # def addNum(*args):
 #     return sum(args)
 # print(addNum(12,23))
+#Ques. kwargs sum
+
+def filter_details(**kwargs):
+        print( sum(kwargs.values()))
+filter_details(Name=30, Branch=70, Rollno= 12)

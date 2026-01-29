@@ -65,6 +65,6 @@ list_1=[12,23,45,66,111,67,89]
 print(list_1[::2])
 ##Swap the first and last elements of a list.
 list_2=[11,43,7,33,22,6,89]
-print([list_2[0]] + list_2[-1])
+
 
 
