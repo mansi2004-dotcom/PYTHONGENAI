@@ -29,18 +29,60 @@
 # print(s)
 
 
-##Local Variable
-def xyz(a,b):
-    a=20
-    b=30
-    c=a*b
-    return c 
-    print(a,b) """ it does not print the value of a and  b bcz local variable does not call outside the 
-    function."""
+# # ##Local Variable
+# def xyz(a,b):
+#     a=20
+#     b=30
+#     c=a*b
+#     print(c)   
+#     print(a,b) # it does not print the value of a and  b bcz local variable does not call outside the 
+# # #     function.
+# xyz(4,5)
     
-m= xyz(10,20)
-print(m)## it print 600 bcz we already defne the value of a and b.
+# m= xyz(10,20)
+# print(m)## it print 600 bcz we already defne the value of a and b.
 
-def odd_eve():
+# def odd_eve():
+#     A=int(input("enter a: "))
+#     if A%2 == 0:
+#         print("Even")
+#     else:
+#         print("Odd")
+#         return A
+# odd_eve()
+
+# def x():
+#     x=int(input("enter number : "))
+#     for i in range (0,x+1):
+#         for j in range(i):
+#                 print("*",end=" ")
+#         print()
+# x()
+# ##For square pattern
+# def num():
+#     num = int(input("enter number: "))
+#     for i in range(num+1):
+#         for j in range(num):
+#             print("*",end=" ")
+#         print()
+# num()
+# ##For reverse pattern
+# def n():
+#     n=int(input("enter num: "))
+#     for i in range(n,0,-1):
+#         for j in range(i):
+#             print("*",end=" ")
+#         print()
+# n() 
+##paramid pattern 
+def pat():
+    pat = int(input("enter a: "))
+    for i in range(1,pat+1):
+        for j in range(""*(pat-i) + "*" *i):
+            print("*",end ="")
+        print()
+pat()
+
+
     
 
