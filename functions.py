@@ -78,7 +78,7 @@
 def pat():
     pat = int(input("enter a: "))
     for i in range(1,pat+1):
-        for j in range(""*(pat-i) + "*" *i):
+        for j in range():
             print("*",end ="")
         print()
 pat()
